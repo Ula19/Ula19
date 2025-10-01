@@ -1,7 +1,8 @@
 <h1 align="center">Hi 👋, I'm Ulugbek</h1>
 <h3 align="center">I'm beginner backend developer from Uzbekistan</h3>
-# 💫 About Me:
-🔭 I’m currently working on<br>👯 I’m looking to collaborate on<br>🤝 I’m looking for help with<br>🌱 I’m currently learning<br>💬 Ask me about<br>⚡ Fun fact
+
+💫 About Me:
+🔭 I’m currently working on my pet project<br>👯 I’m looking to collaborate on<br>🤝 I’m looking for help with<br>🌱 I’m currently learning Django Rest framework<br>💬 Ask me about I started learning Python in 2024. Now I'm writing websites with Django<br>⚡ Fun fact
 
 
 ## 🌐 Socials:
