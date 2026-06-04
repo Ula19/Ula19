@@ -1,45 +1,144 @@
-<h1 align="center">Hi 👋, I'm Ulugbek</h1>
-<h3 align="center">I'm beginner backend developer from Uzbekistan</h3>
+<h1 align="center">Hi, I'm Ulugbek 👋</h1>
+<h3 align="center">Backend Developer · Python · Async services & Web APIs · From Uzbekistan 🇺🇿</h3>
 
-💫 About Me:<br>
-🔭 I currently work as a backend developer.<br><!--👯 I’m looking to collaborate on<br>🤝 I’m looking for help with<br>-->🌱 I’m currently learning **microservices**<br>💬Ask me about **I started learning Python in 2024**<br>⚡ Fun fact...
-
-
-## 🌐 Socials:
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:Toshev.2000@icloud.com) 
-
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Ula19&theme=merko&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Ula19&theme=merko&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Ula19&theme=merko&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
----
-[![](https://visitcount.itsvg.in/api?id=Ula19&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-
-
-
-
-<!-- <h1 align="center">Hi 👋, I'm Ulugbek</h1>
-<h3 align="center">I'm beginner backend developer from Uzbekistan</h3>
-
-- 🔭 I currently work as a backend developer.
-
-- 🌱 I’m currently learning **microservices**
-
-- 💬 Ask me about **I started learning Python in 2024.**
-
-- 📫 How to reach me **Toshev.2000@icloud.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
+<p align="center">
+  I build production-ready backends — from high-load async Telegram services to REST APIs.
+  <br/>
+  Started with Python in 2024, currently working as a backend developer and going deep into <b>microservices</b>.
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> </p>
+<p align="center">
+  <a href="mailto:Toshev.2000@icloud.com">
+    <img src="https://img.shields.io/badge/Email-Toshev.2000@icloud.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://github.com/Ula19">
+    <img src="https://img.shields.io/badge/GitHub-Ula19-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
 
-<br>
--->
+---
+
+### 🧑‍💻 About me
+
+- 🛠️ **Backend developer** focused on Python — both **async services** and **web APIs**.
+- ⚡ Shipped **40+** real, end-to-end Python projects: async Telegram services backed by PostgreSQL, Docker and external APIs.
+- 🌱 Currently learning **microservices** and deepening my knowledge of distributed systems.
+- 🐧 Comfortable in **Linux** (daily-driving Kali on a second machine) and deploying apps to a VPS.
+- 🧩 I care about clean architecture: layered design, async I/O, migrations, rate-limiting and config via env.
+
+---
+
+### 🧰 Tech Stack
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**Async & Bots**
+
+![aiogram](https://img.shields.io/badge/aiogram_3-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
+![asyncio](https://img.shields.io/badge/asyncio-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+**Web & APIs**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![DRF](https://img.shields.io/badge/Django_REST-A30000?style=for-the-badge&logo=django&logoColor=white)
+![REST](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+
+**Databases & Data**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy_2-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![Alembic](https://img.shields.io/badge/Alembic-6BA81E?style=for-the-badge&logo=alembic&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+**Background tasks**
+
+![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
+![APScheduler](https://img.shields.io/badge/APScheduler-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+**DevOps & Tools**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
+
+---
+
+### 🚀 What I work with
+
+```text
+Backend
+├── Async services      aiogram 3 · asyncio · long-running workers
+├── Web & REST APIs     FastAPI · Django · Django REST Framework
+├── Data layer          PostgreSQL · SQLAlchemy 2 (async / asyncpg) · Alembic migrations · Redis
+├── Background jobs      Celery · APScheduler (scheduled digests, periodic tasks)
+├── Media processing    FFmpeg · Pillow (transcoding, compression, image ops)
+├── Integrations        REST/3rd-party APIs (TMDB, OpenWeatherMap, CoinGecko, Wallhaven, HIBP, ...)
+└── Delivery            Docker · Docker Compose · Linux · Nginx · VPS deploy · Git / GitHub Flow
+```
+
+---
+
+### 📌 Featured projects
+
+A few projects that show different sides of my backend work — full list is in the [repositories tab](https://github.com/Ula19?tab=repositories).
+
+| Project | What it does | Stack highlights |
+| --- | --- | --- |
+| [**telegram-uz-translit-bot**](https://github.com/Ula19/telegram-uz-translit-bot) | Uzbek Cyrillic ⇄ Latin transliteration (UzLT 2019/2021), inline mode, admin panel & broadcast, per-user prefs | `aiogram 3` · `PostgreSQL` · `SQLAlchemy 2` · `Alembic` · `Docker Compose` |
+| [**telegram-compress-bot**](https://github.com/Ula19/telegram-compress-bot) | Video (H.265/MP4) & photo (JPEG/HEIC) compression with quality presets, files up to 2 GB | `FFmpeg` · `aiogram 3` · `Local Bot API` |
+| [**telegram-blur-bot**](https://github.com/Ula19/telegram-blur-bot) | Local CPU-side blurring of faces, license plates, backgrounds and custom zones in photos/videos | `OpenCV / CV pipeline` · `FFmpeg` · `aiogram 3` |
+| [**telegram-password-generator-bot**](https://github.com/Ula19/telegram-password-generator-bot) | Strong password generation with breach check via Have I Been Pwned (k-anonymity) | `aiogram 3` · `HIBP API` · `hashing` |
+| [**telegram-movie-guide-bot**](https://github.com/Ula19/telegram-movie-guide-bot) | Multilingual movie/TV search with ratings, trailers and recommendations | `aiogram 3` · `TMDB API` · `PostgreSQL` |
+| [**telegram-weather-uz-bot**](https://github.com/Ula19/telegram-weather-uz-bot) | Weather forecasts with provider fallback and DB-side caching, 4-language UI | `aiogram 3` · `OpenWeatherMap` · `PostgreSQL caching` |
+
+> 🤖 My repositories include **40+ Telegram services** across three areas:
+> **media downloaders** (YouTube, Instagram, TikTok, VK, Reddit, Pinterest, Twitch, RUTUBE…),
+> **media processing** (compress, crop, blur, voice changer, TTS, stickers),
+> and **utilities** (QR, PDF tools, exchange rates, temp-mail, weather, passwords).
+
+---
+
+### 🏗️ How I build things
+
+Most of my services follow a consistent, layered structure that keeps logic testable and easy to extend:
+
+```text
+handlers/      → routing & user interaction
+services/      → business logic (the actual domain work)
+middlewares/   → cross-cutting concerns (rate-limit, subscription checks, i18n)
+keyboards/     → UI components
+database/      → models + CRUD (SQLAlchemy 2, async)
+utils/         → helpers, command setup, config
+```
+
+Common patterns across projects: **async I/O end-to-end**, **per-user rate limiting**,
+**multi-language interfaces** (RU / UZ-Latin / UZ-Cyrillic / EN), **Alembic migrations**,
+**env-based configuration**, and **Docker Compose** deployment.
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ula19&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ula19&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ula19&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+</p>
+
+---
+
+### 📫 Contact
+
+- **Email:** [Toshev.2000@icloud.com](mailto:Toshev.2000@icloud.com)
+- **GitHub:** [@Ula19](https://github.com/Ula19)
+
+<p align="center"><i>Always building, always learning. 🚀</i></p>
