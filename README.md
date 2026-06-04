@@ -117,15 +117,6 @@ Common patterns across projects: **async I/O end-to-end**, **per-user rate limit
 
 <p align="center">
   <a href="https://github.com/Ula19">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ula19&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats"/>
-  </a>
-  <a href="https://github.com/Ula19">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ula19&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Ula19">
     <img src="https://streak-stats.demolab.com/?user=Ula19&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
   </a>
 </p>
