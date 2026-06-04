@@ -46,6 +46,8 @@
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![DRF](https://img.shields.io/badge/Django_REST-A30000?style=for-the-badge&logo=django&logoColor=white)
 ![REST](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white)
 
 **Databases & Data**
 
@@ -64,6 +66,7 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
 
@@ -74,7 +77,7 @@
 ```text
 Backend
 ├── Async services      aiogram 3 · asyncio · long-running workers
-├── Web & REST APIs     FastAPI · Django · Django REST Framework
+├── Web & REST APIs     Django REST Framework · FastAPI · JWT auth · OpenAPI (drf-spectacular)
 ├── Data layer          PostgreSQL · SQLAlchemy 2 (async / asyncpg) · Alembic migrations · Redis
 ├── Background jobs      Celery · APScheduler (scheduled digests, periodic tasks)
 ├── Media processing    FFmpeg · Pillow (transcoding, compression, image ops)
@@ -88,16 +91,24 @@ Backend
 
 A few projects that show different sides of my backend work — full list is in the [repositories tab](https://github.com/Ula19?tab=repositories).
 
+**🌐 Web backends (REST APIs)**
+
 | Project | What it does | Stack highlights |
 | --- | --- | --- |
-| [**telegram-uz-translit-bot**](https://github.com/Ula19/telegram-uz-translit-bot) | Uzbek Cyrillic ⇄ Latin transliteration (UzLT 2019/2021), inline mode, admin panel & broadcast, per-user prefs | `aiogram 3` · `PostgreSQL` · `SQLAlchemy 2` · `Alembic` · `Docker Compose` |
-| [**telegram-compress-bot**](https://github.com/Ula19/telegram-compress-bot) | Video (H.265/MP4) & photo (JPEG/HEIC) compression with quality presets, files up to 2 GB | `FFmpeg` · `aiogram 3` · `Local Bot API` |
-| [**telegram-blur-bot**](https://github.com/Ula19/telegram-blur-bot) | Local CPU-side blurring of faces, license plates, backgrounds and custom zones in photos/videos | `OpenCV / CV pipeline` · `FFmpeg` · `aiogram 3` |
-| [**telegram-password-generator-bot**](https://github.com/Ula19/telegram-password-generator-bot) | Strong password generation with breach check via Have I Been Pwned (k-anonymity) | `aiogram 3` · `HIBP API` · `hashing` |
-| [**telegram-movie-guide-bot**](https://github.com/Ula19/telegram-movie-guide-bot) | Multilingual movie/TV search with ratings, trailers and recommendations | `aiogram 3` · `TMDB API` · `PostgreSQL` |
-| [**telegram-weather-uz-bot**](https://github.com/Ula19/telegram-weather-uz-bot) | Weather forecasts with provider fallback and DB-side caching, 4-language UI | `aiogram 3` · `OpenWeatherMap` · `PostgreSQL caching` |
+| [**BIRGA**](https://github.com/Ula19/BIRGA) | Ride-sharing / carpooling REST API — user accounts, trips, in-app chat and reviews | `Django` · `DRF` · `SimpleJWT` · `drf-spectacular (OpenAPI)` · `django-filter` |
+| [**marketplace**](https://github.com/Ula19/marketplace) | Multi-vendor e-commerce REST API — sellers, shop, profiles and reviews | `Django` · `DRF` · `async (adrf)` · `JWT` · `PostgreSQL` · `Docker` · `Nginx` · `Gunicorn/Uvicorn` |
 
-> 🤖 My repositories include **40+ Telegram services** across three areas:
+**🤖 Async Telegram services**
+
+| Project | What it does | Stack highlights |
+| --- | --- | --- |
+| [**telegram-youtube-downloader-bot**](https://github.com/Ula19/telegram-youtube-downloader-bot) | YouTube video/Shorts/audio downloader, 144p→4K, 2 GB files, proxy balancing (SOCKS5 ↔ WARP) | `aiogram 3` · `yt-dlp` · `uvloop` · `PostgreSQL` · `Local Bot API` |
+| [**telegram-instagram-downloader-bot**](https://github.com/Ula19/telegram-instagram-downloader-bot) | Reels/Stories/posts/IGTV downloader with `file_id` caching (TTL 30d) and multi-protocol proxies | `aiogram 3` · `Cobalt API` · `gallery-dl` · `SQLAlchemy 2` · `pydantic-settings` |
+| [**telegram-reddit-downloader-bot**](https://github.com/Ula19/telegram-reddit-downloader-bot) | Reddit media downloader: DASH audio+video merge, galleries, crosspost resolution | `aiogram 3` · `yt-dlp` · `FFmpeg` · `WARP proxy` |
+| [**telegram-shazam-downloader-bot**](https://github.com/Ula19/telegram-shazam-downloader-bot) | Recognizes a song from audio/video and returns the track with cover & metadata | `aiogram 3` · `shazamio` · `yt-dlp` · `proxy chain` |
+| [**telegram-tempmail-bot**](https://github.com/Ula19/telegram-tempmail-bot) | Disposable emails read inside Telegram; provider-router with automatic failover | `aiogram 3` · `aiohttp` · `mail.tm / guerrillamail` · `PostgreSQL` |
+
+> 🤖 In total my repositories include **40+ Telegram services** across three areas:
 > **media downloaders** (YouTube, Instagram, TikTok, VK, Reddit, Pinterest, Twitch, RUTUBE…),
 > **media processing** (compress, crop, blur, voice changer, TTS, stickers),
 > and **utilities** (QR, PDF tools, exchange rates, temp-mail, weather, passwords).
@@ -126,12 +137,18 @@ Common patterns across projects: **async I/O end-to-end**, **per-user rate limit
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ula19&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ula19&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages"/>
+  <a href="https://github.com/Ula19">
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ula19&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats"/>
+  </a>
+  <a href="https://github.com/Ula19">
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ula19&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages"/>
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ula19&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+  <a href="https://github.com/Ula19">
+    <img src="https://streak-stats.demolab.com/?user=Ula19&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+  </a>
 </p>
 
 ---
@@ -142,3 +159,4 @@ Common patterns across projects: **async I/O end-to-end**, **per-user rate limit
 - **GitHub:** [@Ula19](https://github.com/Ula19)
 
 <p align="center"><i>Always building, always learning. 🚀</i></p>
+
